@@ -20,7 +20,7 @@ const NewBlog = () => {
 
   const navigate = useNavigate();
   const [error, setError] = useState(null);
-  const [emptyFields, setEmptyFields] = useState([]);
+  const [setEmptyFields] = useState([]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();

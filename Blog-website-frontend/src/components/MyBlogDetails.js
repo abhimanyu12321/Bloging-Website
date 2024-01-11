@@ -34,6 +34,7 @@ const MyBlogDetails = ({ blog }) => {
             title: "Successfully Deleted",
             confirmButtonColor: true,
             confirmButtonText: "Okay",
+            // eslint-disable-next-line no-dupe-keys
             confirmButtonColor: "#1aac83",
             icon: "success",
           });
@@ -44,6 +45,7 @@ const MyBlogDetails = ({ blog }) => {
             text: "Something went Wrong!!",
             confirmButtonColor: true,
             confirmButtonText: "Okay",
+            // eslint-disable-next-line no-dupe-keys
             confirmButtonColor: "#F27474",
             icon: "error",
           });
@@ -53,6 +55,7 @@ const MyBlogDetails = ({ blog }) => {
           title: " Cancelled",
           confirmButtonColor: true,
           confirmButtonText: "Okay",
+          // eslint-disable-next-line no-dupe-keys
           confirmButtonColor: "#F27474",
           icon: "error",
         });
